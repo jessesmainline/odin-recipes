@@ -1,10 +1,16 @@
 /* style.css */
 
 body{
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 img{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 300px;
     height: auto;
     max-width: 100%;
 }
+
